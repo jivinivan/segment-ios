@@ -1,0 +1,11 @@
+target 'Segment-Ambassador_Example', :exclusive => true do
+  pod 'Segment-Ambassador', :path => '../'
+end
+
+target 'Segment-Ambassador_Tests', :exclusive => true do
+  pod 'Segment-Ambassador', :path => '../'
+
+  pod 'OCMockito'
+  pod 'Specta'
+  pod 'Expecta'
+end
