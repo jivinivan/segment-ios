@@ -1,14 +1,8 @@
-# Segment-Ambassador
+# Analytics
 
 [![CI Status](http://img.shields.io/travis/segment-integrations/analytics-ios-integration-ambassador.svg?style=flat)](https://travis-ci.org/segment-integrations/analytics-ios-integration-ambassador)
 [![Version](https://img.shields.io/cocoapods/v/Segment-Ambassador.svg?style=flat)](http://cocoapods.org/pods/Segment-Ambassador)
 [![License](https://img.shields.io/cocoapods/l/Segment-Ambassador.svg?style=flat)](http://cocoapods.org/pods/Segment-Ambassador)
-
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
