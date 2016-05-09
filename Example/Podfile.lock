@@ -17,7 +17,7 @@ DEPENDENCIES:
   - Specta
 
 EXTERNAL SOURCES:
-  Segment-Taplytics:
+  Segment-Ambassador:
     :path: ../
 
 SPEC CHECKSUMS:

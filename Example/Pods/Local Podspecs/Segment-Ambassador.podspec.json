@@ -24,7 +24,7 @@
     "Analytics": [
       "~> 3.0.7"
     ],
-    "Taplytics": [
+    "Ambassador": [
       "~> 1.0.31"
     ]
   }
