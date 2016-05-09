@@ -1,1 +1,1 @@
-../../../../../Segment-Taplytics/Classes/SEGTaplyticsIntegration.h
+../../../../../Segment-Ambassador/Classes/SEGAmbassadorIntegration.h
