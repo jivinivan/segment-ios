@@ -1,6 +1,6 @@
 //
 //  Ambassador.h
-//  Copyright (c) 2015 ZFERRAL INC (dba Ambassador Software). All rights reserved.
+//  Copyright (c) 2015 Zferral INC (dba Ambassador Software). All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
