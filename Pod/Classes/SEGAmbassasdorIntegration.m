@@ -8,6 +8,7 @@
 
 #import "SEGAmbassadorIntegration.h"
 #import <Analytics/SEGAnalyticsUtils.h>
+#import "Ambassador.h"
 
 @implementation SEGAmbassadorIntegration
 
@@ -20,7 +21,7 @@
 }
 
 - (void)identify:(SEGIdentifyPayload *)payload {
-    
+    NSLog("IDENTIFYING");
 }
 
 @end

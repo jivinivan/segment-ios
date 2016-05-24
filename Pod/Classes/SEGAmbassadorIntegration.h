@@ -8,16 +8,15 @@
 
 #import <Foundation/Foundation.h>
 #import <Analytics/SEGIntegration.h>
-#import <Ambassador/Ambassador.h>
 
 
 @interface SEGAmbassadorIntegration : NSObject <SEGIntegration>
 
 @property (nonatomic, strong) NSDictionary *settings;
-@property (nonatomic, strong) Ambassador *ambassador;
+//@property (nonatomic, strong) Ambassador *ambassador;
 
 - (instancetype)initWithSettings:(NSDictionary *)settings;
 
-- (instancetype)initWithSettings:(NSDictionary *)settings andAmbassador:(Ambassador *)ambassador;
+//- (instancetype)initWithSettings:(NSDictionary *)settings andAmbassador:(Ambassador *)ambassador;
 
 @end

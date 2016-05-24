@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-
+  s.frameworks = 'Ambassador'
   s.dependency 'Analytics', '~> 3.0.7'
   s.dependency 'Ambassador', '~> 1.0.31'
 end
