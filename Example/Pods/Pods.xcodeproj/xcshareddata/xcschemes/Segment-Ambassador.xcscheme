@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E13C571E899CE4AB41B26106E3F16E22"
-               BuildableName = "libSegment-Ambassador.a"
-               BlueprintName = "Segment-Ambassador"
+               BuildableName = "libSegment-Taplytics.a"
+               BlueprintName = "Segment-Taplytics"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E13C571E899CE4AB41B26106E3F16E22"
-            BuildableName = "libSegment-Ambassador.a"
-            BlueprintName = "Segment-Ambassador"
+            BuildableName = "libSegment-Taplytics.a"
+            BlueprintName = "Segment-Taplytics"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
