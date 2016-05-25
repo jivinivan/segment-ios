@@ -2,11 +2,7 @@
 
 #ifdef __OBJC__
 
-@import Specta;
-@import Expecta;
-@import OCMockito;
-@import Analytics;
-@import Ambassador;
-@import Segment_Ambassador;
+  @import Specta;
+  @import Expecta;
 
 #endif

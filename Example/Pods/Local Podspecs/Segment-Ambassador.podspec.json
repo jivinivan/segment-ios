@@ -1,6 +1,6 @@
 {
   "name": "Segment-Ambassador",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "summary": "Ambassador Integration for Segment's analytics-ios library.",
   "description": "Analytics for iOS provides a single API that lets you\nintegrate with over 100s of tools.\n\nThis is the Ambassador integration for the iOS library.",
   "homepage": "http://segment.com/",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/segment-integrations/analytics-ios-integration-ambassador.git",
-    "tag": "0..0.1"
+    "tag": "0.1.0"
   },
   "social_media_url": "https://twitter.com/segment",
   "platforms": {
@@ -25,7 +25,7 @@
       "~> 3.0.7"
     ],
     "Ambassador": [
-      "~> 1.0.31"
+      "~> 1.0.41"
     ]
   }
 }

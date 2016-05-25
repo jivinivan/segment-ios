@@ -2,8 +2,8 @@
 //  main.m
 //  Segment-Ambassador
 //
-//  Created by Jake Dunahee on 05/06/2016.
-//  Copyright (c) 2016 Zferral. All rights reserved.
+//  Created by jakedunahee on 05/25/2016.
+//  Copyright (c) 2016 jakedunahee. All rights reserved.
 //
 
 @import UIKit;

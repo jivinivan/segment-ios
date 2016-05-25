@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/JakeDunahee/Documents/Git/analytics-ios-integration-taplytics/Example/Segment-Ambassador.xcodeproj">
+      location = "group:Segment-Ambassador.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

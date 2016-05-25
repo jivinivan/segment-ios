@@ -3,6 +3,6 @@ Change Log
 
 Version 0.0.1 *(6th May, 2016)*
 -------------------------------------------
-*(Supports analytics-ios 3.0.+ and Ambassador 1.0.3+)*
+*(Supports analytics-ios 3.0.+ and Ambassador 1.0.41+)*
 
 Initial release.

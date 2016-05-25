@@ -1,12 +1,11 @@
 
-target 'Segment-Ambassador_Example', :exclusive => true do
-  pod 'Segment-Ambassador', :path => '../'
-end
-
-target 'Segment-Ambassador_Tests', :exclusive => true do
+target 'Segment-Ambassador_Example' do
   pod 'Segment-Ambassador', :path => '../'
 
-  pod 'OCMockito'
-  pod 'Specta'
+  target 'Segment-Ambassador_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
   pod 'Expecta'
+  end
 end
