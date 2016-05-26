@@ -10,4 +10,14 @@
 
 @implementation SEGAmbassadorIntegrationFactory
 
+-(id<SEGIntegration>) createWithSettings:(NSDictionary *)settings forAnalytics:(SEGAnalytics *)analytics
+{
+    return [EIExampleIntegration initWithSettings:settings];
+}
+
+-(NSString *)key
+{
+    return @"Example";
+}
+
 @end

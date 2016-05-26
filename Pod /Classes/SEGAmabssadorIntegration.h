@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Analytics/SEGIntegration.h>
+#import <Ambassador/Ambassador.h>
 
-@interface SEGAmabssadorIntegration : NSObject
+@interface SEGAmabssadorIntegration : NSObject <SEGAmabssadorIntegration>
+
+- (instancetype)initWithSettings:(NSDictionary *)settings;
+
+- (instancetype)initWithSettings:(NSDictionary *)settings andAmbassador:(Ambassador *)ambassador;
 
 @end
