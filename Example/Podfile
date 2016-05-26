@@ -1,11 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+#use_frameworks!
+
+platform :ios, '8.0'
 
 target 'Segment-Ambassador_Example' do
-  pod 'Segment-Ambassador', :path => '../'
+  pod "Segment-Ambassador", :path => "../"
+end
 
-  target 'Segment-Ambassador_Tests' do
-    inherit! :search_paths
+target 'Segment-Ambassador_Tests' do
+  pod "Segment-Ambassador", :path => "../"
 
-    pod 'Specta'
+  pod 'OCMockito'
+  pod 'Specta'
   pod 'Expecta'
-  end
 end
