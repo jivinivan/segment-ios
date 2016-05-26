@@ -958,6 +958,10 @@
 		EDC6236561FD056AC4CAA6452B4E38BA /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		EDF4AC9F8DC012DD5CE9CE4283195D50 /* NSInvocation+OCMockito.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+OCMockito.h"; path = "Source/OCMockito/Invocation/NSInvocation+OCMockito.h"; sourceTree = "<group>"; };
 		EECDAD1D35FF3592E85047F357ED0240 /* HCObjectReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCObjectReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCObjectReturnGetter.h; sourceTree = "<group>"; };
+		EF5A46231CF76EBF006B7AFA /* SEGAmabssadorIntegration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEGAmabssadorIntegration.h; sourceTree = "<group>"; };
+		EF5A46241CF76EBF006B7AFA /* SEGAmabssadorIntegration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEGAmabssadorIntegration.m; sourceTree = "<group>"; };
+		EF5A46251CF76EBF006B7AFA /* SEGAmbassadorIntegrationFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEGAmbassadorIntegrationFactory.h; sourceTree = "<group>"; };
+		EF5A46261CF76EBF006B7AFA /* SEGAmbassadorIntegrationFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEGAmbassadorIntegrationFactory.m; sourceTree = "<group>"; };
 		EF9E9566FF0AE4EBD8829B482A00367F /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
 		F080B74C4B2B176B34D27C41ECE6B817 /* HCTestFailureReporterChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTestFailureReporterChain.m; path = Source/Core/Helpers/TestFailureReporters/HCTestFailureReporterChain.m; sourceTree = "<group>"; };
 		F13A707E87942B9F54BF2BEAC71DC70C /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
@@ -1667,6 +1671,7 @@
 		C3CEE50AE1605A6AFFB13F26A70BBDA1 /* Segment-Ambassador */ = {
 			isa = PBXGroup;
 			children = (
+				EF5A46221CF76EBF006B7AFA /* Classes */,
 			);
 			name = "Segment-Ambassador";
 			path = ../..;
@@ -1705,6 +1710,18 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Analytics";
+			sourceTree = "<group>";
+		};
+		EF5A46221CF76EBF006B7AFA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A46231CF76EBF006B7AFA /* SEGAmabssadorIntegration.h */,
+				EF5A46241CF76EBF006B7AFA /* SEGAmabssadorIntegration.m */,
+				EF5A46251CF76EBF006B7AFA /* SEGAmbassadorIntegrationFactory.h */,
+				EF5A46261CF76EBF006B7AFA /* SEGAmbassadorIntegrationFactory.m */,
+			);
+			name = Classes;
+			path = "Pod /Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
