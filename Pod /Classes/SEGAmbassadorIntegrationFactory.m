@@ -10,14 +10,25 @@
 
 @implementation SEGAmbassadorIntegrationFactory
 
++ (instancetype)instance
+{
+    static dispatch_once_t once;
+    static SEGAmbassadorIntegrationFactory *sharedInstance;
+    dispatch_once(&once, ^{
+        sharedInstance = [[self alloc] init];
+    });
+    return sharedInstance;
+}
+
+
 -(id<SEGIntegration>) createWithSettings:(NSDictionary *)settings forAnalytics:(SEGAnalytics *)analytics
 {
-    return [EIExampleIntegration initWithSettings:settings];
+    return nil;
 }
 
 -(NSString *)key
 {
-    return @"Example";
+    return @"Amabssador";
 }
 
 @end

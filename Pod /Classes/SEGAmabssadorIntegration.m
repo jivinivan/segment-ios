@@ -11,7 +11,8 @@
 @implementation SEGAmabssadorIntegration
 
 -(void)identify:(SEGIdentifyPayload *)payload {
-    [AmbassadorSDK identifyWithUserID:@"0" traits:nil options:nil];
+//    [AmbassadorSDK identifyWithUserID:@"0" traits:nil options:nil];
+    NSLog(@"AMbassasdor IDentifying");
 }
 
 @end

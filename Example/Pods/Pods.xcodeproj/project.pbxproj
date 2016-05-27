@@ -430,6 +430,10 @@
 		EEBAD4E4CD2653C2E36429B7048CC859 /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 066C135C5241631EA28800F282963FFD /* SPTCallSite.m */; };
 		EEFE009B1364D2306518838064E080F8 /* MKTFilterCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4235B84F4A1ACBCB4E382832D9ED9407 /* MKTFilterCallStack.m */; };
 		EF305FCB32346C76431C1202E7AD467B /* SEGIdentifyPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 7898DC811B43FE0763B329A4FC164C34 /* SEGIdentifyPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF798D851CF8C97C00E673D3 /* SEGAmabssadorIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = EF798D821CF8C97C00E673D3 /* SEGAmabssadorIntegration.m */; };
+		EF798D861CF8C97C00E673D3 /* SEGAmabssadorIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = EF798D821CF8C97C00E673D3 /* SEGAmabssadorIntegration.m */; };
+		EF798D871CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EF798D841CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m */; };
+		EF798D881CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EF798D841CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m */; };
 		F1F4E65611F5567A86AF797EAC3E225B /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAFC9495C930BA3D109921E1440A096 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F2752BA97A4E79B8F925D7B44A4662CB /* HCTestFailureReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = CCBDBEFBC980D848E4F0DCCB99B8A5C5 /* HCTestFailureReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F280BEB32C116B6249D42E50A697B04B /* SEGSegmentIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A7EC62F30695CB1D854B79D24A0E67 /* SEGSegmentIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -958,11 +962,11 @@
 		EDC6236561FD056AC4CAA6452B4E38BA /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		EDF4AC9F8DC012DD5CE9CE4283195D50 /* NSInvocation+OCMockito.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+OCMockito.h"; path = "Source/OCMockito/Invocation/NSInvocation+OCMockito.h"; sourceTree = "<group>"; };
 		EECDAD1D35FF3592E85047F357ED0240 /* HCObjectReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCObjectReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCObjectReturnGetter.h; sourceTree = "<group>"; };
-		EF798D291CF8A80900E673D3 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		EF798D2A1CF8A80900E673D3 /* SEGAmabssadorIntegration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEGAmabssadorIntegration.h; sourceTree = "<group>"; };
-		EF798D2B1CF8A80900E673D3 /* SEGAmabssadorIntegration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEGAmabssadorIntegration.m; sourceTree = "<group>"; };
-		EF798D2C1CF8A80900E673D3 /* SEGAmbassadorIntegrationFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEGAmbassadorIntegrationFactory.h; sourceTree = "<group>"; };
-		EF798D2D1CF8A80900E673D3 /* SEGAmbassadorIntegrationFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEGAmbassadorIntegrationFactory.m; sourceTree = "<group>"; };
+		EF798D801CF8C97C00E673D3 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EF798D811CF8C97C00E673D3 /* SEGAmabssadorIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGAmabssadorIntegration.h; sourceTree = "<group>"; };
+		EF798D821CF8C97C00E673D3 /* SEGAmabssadorIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGAmabssadorIntegration.m; sourceTree = "<group>"; };
+		EF798D831CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGAmbassadorIntegrationFactory.h; sourceTree = "<group>"; };
+		EF798D841CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGAmbassadorIntegrationFactory.m; sourceTree = "<group>"; };
 		EF9E9566FF0AE4EBD8829B482A00367F /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
 		F080B74C4B2B176B34D27C41ECE6B817 /* HCTestFailureReporterChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTestFailureReporterChain.m; path = Source/Core/Helpers/TestFailureReporters/HCTestFailureReporterChain.m; sourceTree = "<group>"; };
 		F13A707E87942B9F54BF2BEAC71DC70C /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
@@ -1672,7 +1676,7 @@
 		C3CEE50AE1605A6AFFB13F26A70BBDA1 /* Segment-Ambassador */ = {
 			isa = PBXGroup;
 			children = (
-				EF798D251CF8A80900E673D3 /* Pod */,
+				EF798D7C1CF8C97C00E673D3 /* Pod  */,
 			);
 			name = "Segment-Ambassador";
 			path = ../..;
@@ -1713,22 +1717,22 @@
 			path = "../Target Support Files/Analytics";
 			sourceTree = "<group>";
 		};
-		EF798D251CF8A80900E673D3 /* Pod */ = {
+		EF798D7C1CF8C97C00E673D3 /* Pod  */ = {
 			isa = PBXGroup;
 			children = (
-				EF798D281CF8A80900E673D3 /* Classes */,
+				EF798D7F1CF8C97C00E673D3 /* Classes */,
 			);
-			path = Pod;
+			path = "Pod ";
 			sourceTree = "<group>";
 		};
-		EF798D281CF8A80900E673D3 /* Classes */ = {
+		EF798D7F1CF8C97C00E673D3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EF798D291CF8A80900E673D3 /* .gitkeep */,
-				EF798D2A1CF8A80900E673D3 /* SEGAmabssadorIntegration.h */,
-				EF798D2B1CF8A80900E673D3 /* SEGAmabssadorIntegration.m */,
-				EF798D2C1CF8A80900E673D3 /* SEGAmbassadorIntegrationFactory.h */,
-				EF798D2D1CF8A80900E673D3 /* SEGAmbassadorIntegrationFactory.m */,
+				EF798D801CF8C97C00E673D3 /* .gitkeep */,
+				EF798D811CF8C97C00E673D3 /* SEGAmabssadorIntegration.h */,
+				EF798D821CF8C97C00E673D3 /* SEGAmabssadorIntegration.m */,
+				EF798D831CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.h */,
+				EF798D841CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -2202,7 +2206,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF798D871CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m in Sources */,
 				CFC9F8EDB262106345DA3379173C5411 /* Pods-Segment-Ambassador_Example-dummy.m in Sources */,
+				EF798D851CF8C97C00E673D3 /* SEGAmabssadorIntegration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2210,7 +2216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF798D881CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m in Sources */,
 				172CAF029896C8A7D177AD09F4F8A0D2 /* Pods-Segment-Ambassador_Tests-dummy.m in Sources */,
+				EF798D861CF8C97C00E673D3 /* SEGAmabssadorIntegration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
