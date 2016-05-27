@@ -958,10 +958,11 @@
 		EDC6236561FD056AC4CAA6452B4E38BA /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		EDF4AC9F8DC012DD5CE9CE4283195D50 /* NSInvocation+OCMockito.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+OCMockito.h"; path = "Source/OCMockito/Invocation/NSInvocation+OCMockito.h"; sourceTree = "<group>"; };
 		EECDAD1D35FF3592E85047F357ED0240 /* HCObjectReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCObjectReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCObjectReturnGetter.h; sourceTree = "<group>"; };
-		EF798D211CF8947300E673D3 /* SEGAmabssadorIntegration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEGAmabssadorIntegration.h; sourceTree = "<group>"; };
-		EF798D221CF8947300E673D3 /* SEGAmabssadorIntegration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEGAmabssadorIntegration.m; sourceTree = "<group>"; };
-		EF798D231CF8947300E673D3 /* SEGAmbassadorIntegrationFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEGAmbassadorIntegrationFactory.h; sourceTree = "<group>"; };
-		EF798D241CF8947300E673D3 /* SEGAmbassadorIntegrationFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEGAmbassadorIntegrationFactory.m; sourceTree = "<group>"; };
+		EF798D291CF8A80900E673D3 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EF798D2A1CF8A80900E673D3 /* SEGAmabssadorIntegration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEGAmabssadorIntegration.h; sourceTree = "<group>"; };
+		EF798D2B1CF8A80900E673D3 /* SEGAmabssadorIntegration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEGAmabssadorIntegration.m; sourceTree = "<group>"; };
+		EF798D2C1CF8A80900E673D3 /* SEGAmbassadorIntegrationFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEGAmbassadorIntegrationFactory.h; sourceTree = "<group>"; };
+		EF798D2D1CF8A80900E673D3 /* SEGAmbassadorIntegrationFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEGAmbassadorIntegrationFactory.m; sourceTree = "<group>"; };
 		EF9E9566FF0AE4EBD8829B482A00367F /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
 		F080B74C4B2B176B34D27C41ECE6B817 /* HCTestFailureReporterChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTestFailureReporterChain.m; path = Source/Core/Helpers/TestFailureReporters/HCTestFailureReporterChain.m; sourceTree = "<group>"; };
 		F13A707E87942B9F54BF2BEAC71DC70C /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
@@ -1671,7 +1672,7 @@
 		C3CEE50AE1605A6AFFB13F26A70BBDA1 /* Segment-Ambassador */ = {
 			isa = PBXGroup;
 			children = (
-				EF798D1D1CF8947300E673D3 /* Pod  */,
+				EF798D251CF8A80900E673D3 /* Pod */,
 			);
 			name = "Segment-Ambassador";
 			path = ../..;
@@ -1712,21 +1713,22 @@
 			path = "../Target Support Files/Analytics";
 			sourceTree = "<group>";
 		};
-		EF798D1D1CF8947300E673D3 /* Pod  */ = {
+		EF798D251CF8A80900E673D3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EF798D201CF8947300E673D3 /* Classes */,
+				EF798D281CF8A80900E673D3 /* Classes */,
 			);
-			path = "Pod ";
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		EF798D201CF8947300E673D3 /* Classes */ = {
+		EF798D281CF8A80900E673D3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EF798D211CF8947300E673D3 /* SEGAmabssadorIntegration.h */,
-				EF798D221CF8947300E673D3 /* SEGAmabssadorIntegration.m */,
-				EF798D231CF8947300E673D3 /* SEGAmbassadorIntegrationFactory.h */,
-				EF798D241CF8947300E673D3 /* SEGAmbassadorIntegrationFactory.m */,
+				EF798D291CF8A80900E673D3 /* .gitkeep */,
+				EF798D2A1CF8A80900E673D3 /* SEGAmabssadorIntegration.h */,
+				EF798D2B1CF8A80900E673D3 /* SEGAmabssadorIntegration.m */,
+				EF798D2C1CF8A80900E673D3 /* SEGAmbassadorIntegrationFactory.h */,
+				EF798D2D1CF8A80900E673D3 /* SEGAmbassadorIntegrationFactory.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
