@@ -21,6 +21,12 @@
     return sharedInstance;
 }
 
+- (instancetype)init
+{
+    self = [super init];
+    return self;
+}
+
 
 -(id<SEGIntegration>) createWithSettings:(NSDictionary *)settings forAnalytics:(SEGAnalytics *)analytics
 {
