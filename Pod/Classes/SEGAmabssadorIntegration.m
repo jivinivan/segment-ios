@@ -19,7 +19,7 @@
 
 -(void)identify:(SEGIdentifyPayload *)payload {
 //    [AmbassadorSDK identifyWithUserID:@"0" traits:nil options:nil];
-    SEGLog(@"Test identify");
+    NSLog(@"Test identify");
 }
 
 @end
