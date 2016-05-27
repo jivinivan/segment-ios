@@ -7,6 +7,7 @@
 //
 
 #import "SEGAmbassadorIntegrationFactory.h"
+#import "SEGAmabssadorIntegration.h"
 
 @implementation SEGAmbassadorIntegrationFactory
 
@@ -30,7 +31,7 @@
 
 -(id<SEGIntegration>) createWithSettings:(NSDictionary *)settings forAnalytics:(SEGAnalytics *)analytics
 {
-    return nil;
+    return [[SEGAmabssadorIntegration alloc] initWithSettings:settings];
 }
 
 -(NSString *)key

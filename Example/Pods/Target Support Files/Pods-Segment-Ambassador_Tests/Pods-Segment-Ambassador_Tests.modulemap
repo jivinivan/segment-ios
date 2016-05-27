@@ -1,0 +1,6 @@
+framework module Pods_Segment_Ambassador_Tests {
+  umbrella header "Pods-Segment-Ambassador_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

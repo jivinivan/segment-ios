@@ -11,6 +11,12 @@
 
 @implementation SEGAmabssadorIntegration
 
+- (instancetype)initWithSettings:(NSDictionary *)settings {
+    if (self = [super init]) {
+        NSLog(@"Initwithsettings");
+    }
+}
+
 -(void)identify:(SEGIdentifyPayload *)payload {
 //    [AmbassadorSDK identifyWithUserID:@"0" traits:nil options:nil];
     SEGLog(@"Test identify");
