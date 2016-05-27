@@ -430,10 +430,10 @@
 		EEBAD4E4CD2653C2E36429B7048CC859 /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 066C135C5241631EA28800F282963FFD /* SPTCallSite.m */; };
 		EEFE009B1364D2306518838064E080F8 /* MKTFilterCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4235B84F4A1ACBCB4E382832D9ED9407 /* MKTFilterCallStack.m */; };
 		EF305FCB32346C76431C1202E7AD467B /* SEGIdentifyPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 7898DC811B43FE0763B329A4FC164C34 /* SEGIdentifyPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF798D851CF8C97C00E673D3 /* SEGAmabssadorIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = EF798D821CF8C97C00E673D3 /* SEGAmabssadorIntegration.m */; };
-		EF798D861CF8C97C00E673D3 /* SEGAmabssadorIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = EF798D821CF8C97C00E673D3 /* SEGAmabssadorIntegration.m */; };
-		EF798D871CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EF798D841CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m */; };
-		EF798D881CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EF798D841CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m */; };
+		EF798D921CF8CB3F00E673D3 /* SEGAmabssadorIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = EF798D8E1CF8CB3F00E673D3 /* SEGAmabssadorIntegration.h */; };
+		EF798D931CF8CB3F00E673D3 /* SEGAmabssadorIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = EF798D8F1CF8CB3F00E673D3 /* SEGAmabssadorIntegration.m */; };
+		EF798D941CF8CB3F00E673D3 /* SEGAmbassadorIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = EF798D901CF8CB3F00E673D3 /* SEGAmbassadorIntegrationFactory.h */; };
+		EF798D951CF8CB3F00E673D3 /* SEGAmbassadorIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EF798D911CF8CB3F00E673D3 /* SEGAmbassadorIntegrationFactory.m */; };
 		F1F4E65611F5567A86AF797EAC3E225B /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAFC9495C930BA3D109921E1440A096 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F2752BA97A4E79B8F925D7B44A4662CB /* HCTestFailureReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = CCBDBEFBC980D848E4F0DCCB99B8A5C5 /* HCTestFailureReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F280BEB32C116B6249D42E50A697B04B /* SEGSegmentIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A7EC62F30695CB1D854B79D24A0E67 /* SEGSegmentIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -962,11 +962,11 @@
 		EDC6236561FD056AC4CAA6452B4E38BA /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		EDF4AC9F8DC012DD5CE9CE4283195D50 /* NSInvocation+OCMockito.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+OCMockito.h"; path = "Source/OCMockito/Invocation/NSInvocation+OCMockito.h"; sourceTree = "<group>"; };
 		EECDAD1D35FF3592E85047F357ED0240 /* HCObjectReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCObjectReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCObjectReturnGetter.h; sourceTree = "<group>"; };
-		EF798D801CF8C97C00E673D3 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		EF798D811CF8C97C00E673D3 /* SEGAmabssadorIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGAmabssadorIntegration.h; sourceTree = "<group>"; };
-		EF798D821CF8C97C00E673D3 /* SEGAmabssadorIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGAmabssadorIntegration.m; sourceTree = "<group>"; };
-		EF798D831CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGAmbassadorIntegrationFactory.h; sourceTree = "<group>"; };
-		EF798D841CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGAmbassadorIntegrationFactory.m; sourceTree = "<group>"; };
+		EF798D8D1CF8CB3F00E673D3 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EF798D8E1CF8CB3F00E673D3 /* SEGAmabssadorIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGAmabssadorIntegration.h; sourceTree = "<group>"; };
+		EF798D8F1CF8CB3F00E673D3 /* SEGAmabssadorIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGAmabssadorIntegration.m; sourceTree = "<group>"; };
+		EF798D901CF8CB3F00E673D3 /* SEGAmbassadorIntegrationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGAmbassadorIntegrationFactory.h; sourceTree = "<group>"; };
+		EF798D911CF8CB3F00E673D3 /* SEGAmbassadorIntegrationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGAmbassadorIntegrationFactory.m; sourceTree = "<group>"; };
 		EF9E9566FF0AE4EBD8829B482A00367F /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
 		F080B74C4B2B176B34D27C41ECE6B817 /* HCTestFailureReporterChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTestFailureReporterChain.m; path = Source/Core/Helpers/TestFailureReporters/HCTestFailureReporterChain.m; sourceTree = "<group>"; };
 		F13A707E87942B9F54BF2BEAC71DC70C /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
@@ -1676,7 +1676,7 @@
 		C3CEE50AE1605A6AFFB13F26A70BBDA1 /* Segment-Ambassador */ = {
 			isa = PBXGroup;
 			children = (
-				EF798D7C1CF8C97C00E673D3 /* Pod  */,
+				EF798D891CF8CB3F00E673D3 /* Pod  */,
 			);
 			name = "Segment-Ambassador";
 			path = ../..;
@@ -1717,22 +1717,22 @@
 			path = "../Target Support Files/Analytics";
 			sourceTree = "<group>";
 		};
-		EF798D7C1CF8C97C00E673D3 /* Pod  */ = {
+		EF798D891CF8CB3F00E673D3 /* Pod  */ = {
 			isa = PBXGroup;
 			children = (
-				EF798D7F1CF8C97C00E673D3 /* Classes */,
+				EF798D8C1CF8CB3F00E673D3 /* Classes */,
 			);
 			path = "Pod ";
 			sourceTree = "<group>";
 		};
-		EF798D7F1CF8C97C00E673D3 /* Classes */ = {
+		EF798D8C1CF8CB3F00E673D3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EF798D801CF8C97C00E673D3 /* .gitkeep */,
-				EF798D811CF8C97C00E673D3 /* SEGAmabssadorIntegration.h */,
-				EF798D821CF8C97C00E673D3 /* SEGAmabssadorIntegration.m */,
-				EF798D831CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.h */,
-				EF798D841CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m */,
+				EF798D8D1CF8CB3F00E673D3 /* .gitkeep */,
+				EF798D8E1CF8CB3F00E673D3 /* SEGAmabssadorIntegration.h */,
+				EF798D8F1CF8CB3F00E673D3 /* SEGAmabssadorIntegration.m */,
+				EF798D901CF8CB3F00E673D3 /* SEGAmbassadorIntegrationFactory.h */,
+				EF798D911CF8CB3F00E673D3 /* SEGAmbassadorIntegrationFactory.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1984,6 +1984,7 @@
 				E617E37B8DE4B930EC91E78E7B804A9C /* SEGAliasPayload.h in Headers */,
 				2F824EA28F819F2E4A9E6D31E14D0603 /* SEGAnalytics.h in Headers */,
 				98A22457F5E28CAF0B7E113A6D4142A1 /* SEGAnalyticsRequest.h in Headers */,
+				EF798D921CF8CB3F00E673D3 /* SEGAmabssadorIntegration.h in Headers */,
 				901C95FA513F8BEC6992EE457A527DE1 /* SEGAnalyticsUtils.h in Headers */,
 				539C2C0907CA46CC4DE78E19B1AFFA8E /* SEGBluetooth.h in Headers */,
 				F6A5E9881D67168D9B9BFA5FCD834596 /* SEGGroupPayload.h in Headers */,
@@ -1995,6 +1996,7 @@
 				DAC08D09C7E4411C8B01CD2FCFCD247B /* SEGReachability.h in Headers */,
 				6CBB0742821FD4D346404011AE148582 /* SEGScreenPayload.h in Headers */,
 				F280BEB32C116B6249D42E50A697B04B /* SEGSegmentIntegration.h in Headers */,
+				EF798D941CF8CB3F00E673D3 /* SEGAmbassadorIntegrationFactory.h in Headers */,
 				26FDD94D57A937677D2A42E53E7DBD7A /* SEGSegmentIntegrationFactory.h in Headers */,
 				DD7BED725086CF410512F736DE7AA95B /* SEGTrackPayload.h in Headers */,
 			);
@@ -2206,9 +2208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF798D871CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m in Sources */,
 				CFC9F8EDB262106345DA3379173C5411 /* Pods-Segment-Ambassador_Example-dummy.m in Sources */,
-				EF798D851CF8C97C00E673D3 /* SEGAmabssadorIntegration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2216,9 +2216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF798D881CF8C97C00E673D3 /* SEGAmbassadorIntegrationFactory.m in Sources */,
 				172CAF029896C8A7D177AD09F4F8A0D2 /* Pods-Segment-Ambassador_Tests-dummy.m in Sources */,
-				EF798D861CF8C97C00E673D3 /* SEGAmabssadorIntegration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2395,11 +2393,13 @@
 				8F8B382D1231AE6FCA478E3C79F036AD /* SEGAnalytics.m in Sources */,
 				7F99F346CEC7597BC4AD63F1E966D594 /* SEGAnalyticsRequest.m in Sources */,
 				B5F7A213B1C490590EFAB25DF6AFD48A /* SEGAnalyticsUtils.m in Sources */,
+				EF798D931CF8CB3F00E673D3 /* SEGAmabssadorIntegration.m in Sources */,
 				68E10C74572004B18490C31A0757E3B2 /* SEGBluetooth.m in Sources */,
 				66ED669D42B1035789CE51D6A5C86EB0 /* SEGGroupPayload.m in Sources */,
 				B09EF0FD07655A036EF25A09252EC9A9 /* SEGIdentifyPayload.m in Sources */,
 				B309BC0D714443A4A815F45FECB8AAB1 /* SEGLocation.m in Sources */,
 				EB27473B3153D1A32E331F8C3BC98E15 /* SEGPayload.m in Sources */,
+				EF798D951CF8CB3F00E673D3 /* SEGAmbassadorIntegrationFactory.m in Sources */,
 				A2A91F93C68DAE8C18FE53F6EA15D54D /* SEGReachability.m in Sources */,
 				10640AF349457B2280632CECCCA5FE7C /* SEGScreenPayload.m in Sources */,
 				3CF85CEBEA5339235C29E19B55D944ED /* SEGSegmentIntegration.m in Sources */,
