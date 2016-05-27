@@ -17,6 +17,7 @@
     dispatch_once(&once, ^{
         sharedInstance = [[self alloc] init];
     });
+    NSLog(@"TEST");
     return sharedInstance;
 }
 
