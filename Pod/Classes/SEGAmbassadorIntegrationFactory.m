@@ -31,6 +31,7 @@
 
 -(id<SEGIntegration>) createWithSettings:(NSDictionary *)settings forAnalytics:(SEGAnalytics *)analytics
 {
+    NSLog(@"CreateWithSettings");
     return [[SEGAmabssadorIntegration alloc] initWithSettings:settings];
 }
 
