@@ -15,6 +15,8 @@
     if (self = [super init]) {
         NSLog(@"Initwithsettings");
     }
+    
+    return self;
 }
 
 -(void)identify:(SEGIdentifyPayload *)payload {
