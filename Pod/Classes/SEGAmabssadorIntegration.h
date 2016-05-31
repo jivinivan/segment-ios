@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <Analytics/SEGIntegration.h>
-//#import <Ambassador/Ambassador.h>
+#import <Ambassador/Ambassador.h>
 
 @interface SEGAmabssadorIntegration : NSObject <SEGIntegration>
 
