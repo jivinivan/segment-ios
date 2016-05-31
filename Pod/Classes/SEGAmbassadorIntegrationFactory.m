@@ -37,7 +37,7 @@
 
 -(NSString *)key
 {
-    return @"Amabssador";
+    return @"Ambassador";
 }
 
 @end
