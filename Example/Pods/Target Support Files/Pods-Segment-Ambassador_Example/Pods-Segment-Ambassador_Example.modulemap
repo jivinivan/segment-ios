@@ -1,6 +1,0 @@
-framework module Pods_Segment_Ambassador_Example {
-  umbrella header "Pods-Segment-Ambassador_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

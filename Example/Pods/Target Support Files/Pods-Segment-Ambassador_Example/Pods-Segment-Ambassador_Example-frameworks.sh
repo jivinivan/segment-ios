@@ -82,12 +82,3 @@ strip_invalid_archs() {
   fi
 }
 
-
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/Analytics/Analytics.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Segment-Ambassador/Segment_Ambassador.framework"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/Analytics/Analytics.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Segment-Ambassador/Segment_Ambassador.framework"
-fi

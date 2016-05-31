@@ -11,6 +11,7 @@ PODS:
   - Specta (1.0.5)
 
 DEPENDENCIES:
+  - Ambassador
   - Expecta
   - OCMockito
   - Segment-Ambassador (from `../`)
@@ -29,6 +30,6 @@ SPEC CHECKSUMS:
   Segment-Ambassador: ca9eb9ad80c0570996cac79f36c1ba950eeaed5c
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
-PODFILE CHECKSUM: cfac03b3ef67d1636bde81d86e9ab70ad6ab6f5a
+PODFILE CHECKSUM: e2396397f0658bfd6e73487c96b6f3a2fc996279
 
 COCOAPODS: 1.0.0

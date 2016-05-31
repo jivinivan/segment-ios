@@ -8,6 +8,7 @@
 
 #import "SEGAmabssadorIntegration.h"
 #import <Analytics/SEGAnalyticsUtils.h>
+#import "Ambassador.h"
 
 @implementation SEGAmabssadorIntegration
 
@@ -20,7 +21,7 @@
 }
 
 -(void)identify:(SEGIdentifyPayload *)payload {
-    [AmbassadorSDK identifyWithUserID:@"0" traits:payload[@"traits"] options:payloadp[@"options"]];
+    [AmbassadorSDK identifyWithUserID:@"0" traits:nil options:nil];
     NSLog(@"Test identify");
     SEGLog(@"test");
 }

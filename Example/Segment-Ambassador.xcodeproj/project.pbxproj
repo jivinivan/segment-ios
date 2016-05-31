@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		007211A80866598CEE9F2F8C /* Pods_Segment_Ambassador_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525391A75FA74DAF5CC63556 /* Pods_Segment_Ambassador_Example.framework */; };
+		11E6C4C6F57DD4DCD1F5A7F6 /* libPods-Segment-Ambassador_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F94E94C210013A07E361D6 /* libPods-Segment-Ambassador_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +22,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E33FC59CACB654DE2B2D4F16 /* Pods_Segment_Ambassador_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F069A221BB6CD03A46A60C0 /* Pods_Segment_Ambassador_Tests.framework */; };
+		B8EBB707D299911C3E123D82 /* libPods-Segment-Ambassador_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D6825F804D5499107C1FEB /* libPods-Segment-Ambassador_Example.a */; };
+		EF22EAD31CFE3C6500DC3A89 /* libPods-Segment-Ambassador_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF22EAD21CFE3C6500DC3A89 /* libPods-Segment-Ambassador_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 		16EAD4037F50609E8758BF28 /* Segment-Ambassador.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "Segment-Ambassador.podspec"; path = "../Segment-Ambassador.podspec"; sourceTree = "<group>"; };
 		3542F6D76FE5238040D44B95 /* Pods-Segment-Ambassador_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment-Ambassador_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Segment-Ambassador_Tests/Pods-Segment-Ambassador_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		457D6F6B0E7B271F2883D786 /* Pods-Segment-Ambassador_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment-Ambassador_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Segment-Ambassador_Example/Pods-Segment-Ambassador_Example.release.xcconfig"; sourceTree = "<group>"; };
-		525391A75FA74DAF5CC63556 /* Pods_Segment_Ambassador_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Segment_Ambassador_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F94E94C210013A07E361D6 /* libPods-Segment-Ambassador_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Segment-Ambassador_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* Segment-Ambassador_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Segment-Ambassador_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +62,19 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9F069A221BB6CD03A46A60C0 /* Pods_Segment_Ambassador_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Segment_Ambassador_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFB1DB5036168A19C10FC85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C8098EEDD659EF3485A255FC /* Pods-Segment-Ambassador_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment-Ambassador_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Segment-Ambassador_Tests/Pods-Segment-Ambassador_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D6D6825F804D5499107C1FEB /* libPods-Segment-Ambassador_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Segment-Ambassador_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF22EAC71CFE39DF00DC3A89 /* libAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAnalytics.a; path = "Pods/../build/Debug-iphoneos/Analytics/libAnalytics.a"; sourceTree = "<group>"; };
+		EF22EAC91CFE39EB00DC3A89 /* libSegment-Ambassador.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libSegment-Ambassador.a"; path = "Pods/../build/Debug-iphoneos/Segment-Ambassador/libSegment-Ambassador.a"; sourceTree = "<group>"; };
+		EF22EACB1CFE39FF00DC3A89 /* libPods-Segment-Ambassador_Example.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Segment-Ambassador_Example.a"; path = "../../../../Library/Developer/Xcode/DerivedData/Segment-Ambassador-fmmfnaklgmdcqdeiqqzehvyvakoe/Build/Products/Debug-iphonesimulator/libPods-Segment-Ambassador_Example.a"; sourceTree = "<group>"; };
+		EF22EACD1CFE3AFA00DC3A89 /* libPods-Segment-Ambassador_Example.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Segment-Ambassador_Example.a"; path = "Pods/../build/Debug-iphoneos/libPods-Segment-Ambassador_Example.a"; sourceTree = "<group>"; };
+		EF22EAD01CFE3BA500DC3A89 /* libSegment-Ambassador.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libSegment-Ambassador.a"; path = "Pods/../build/Debug-iphoneos/Segment-Ambassador/libSegment-Ambassador.a"; sourceTree = "<group>"; };
+		EF22EAD21CFE3C6500DC3A89 /* libPods-Segment-Ambassador_Example.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Segment-Ambassador_Example.a"; path = "Pods/../build/Debug-iphoneos/libPods-Segment-Ambassador_Example.a"; sourceTree = "<group>"; };
 		EF5A46141CF73726006B7AFA /* Ambassador.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ambassador.framework; path = Pods/Ambassador/Ambassador.framework; sourceTree = "<group>"; };
 		EF5A461C1CF737A0006B7AFA /* Analytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Analytics.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Segment-Ambassador-fmmfnaklgmdcqdeiqqzehvyvakoe/Build/Products/Debug-iphonesimulator/Analytics/Analytics.framework"; sourceTree = "<group>"; };
 		EF5A461F1CF73CCE006B7AFA /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		EF5DEA211CFE17480076D28A /* Pods_Segment_Ambassador_Example.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Segment_Ambassador_Example.framework; path = "Pods/../build/Debug-iphoneos/Pods_Segment_Ambassador_Example.framework"; sourceTree = "<group>"; };
 		F9DFB8E8D22F0C88515AA1CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,10 +83,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF22EAD31CFE3C6500DC3A89 /* libPods-Segment-Ambassador_Example.a in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				007211A80866598CEE9F2F8C /* Pods_Segment_Ambassador_Example.framework in Frameworks */,
+				B8EBB707D299911C3E123D82 /* libPods-Segment-Ambassador_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +98,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				E33FC59CACB654DE2B2D4F16 /* Pods_Segment_Ambassador_Tests.framework in Frameworks */,
+				11E6C4C6F57DD4DCD1F5A7F6 /* libPods-Segment-Ambassador_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +129,13 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF22EAD21CFE3C6500DC3A89 /* libPods-Segment-Ambassador_Example.a */,
+				EF22EAD01CFE3BA500DC3A89 /* libSegment-Ambassador.a */,
+				EF22EACD1CFE3AFA00DC3A89 /* libPods-Segment-Ambassador_Example.a */,
+				EF22EACB1CFE39FF00DC3A89 /* libPods-Segment-Ambassador_Example.a */,
+				EF22EAC91CFE39EB00DC3A89 /* libSegment-Ambassador.a */,
+				EF22EAC71CFE39DF00DC3A89 /* libAnalytics.a */,
+				EF5DEA211CFE17480076D28A /* Pods_Segment_Ambassador_Example.framework */,
 				EF5A461F1CF73CCE006B7AFA /* libicucore.tbd */,
 				EF5A461C1CF737A0006B7AFA /* Analytics.framework */,
 				EF5A46141CF73726006B7AFA /* Ambassador.framework */,
@@ -127,8 +143,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				525391A75FA74DAF5CC63556 /* Pods_Segment_Ambassador_Example.framework */,
-				9F069A221BB6CD03A46A60C0 /* Pods_Segment_Ambassador_Tests.framework */,
+				D6D6825F804D5499107C1FEB /* libPods-Segment-Ambassador_Example.a */,
+				48F94E94C210013A07E361D6 /* libPods-Segment-Ambassador_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -459,6 +475,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -473,6 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -499,6 +517,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -506,6 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -517,13 +537,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0081F39724478FCF5F5860CF /* Pods-Segment-Ambassador_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/Ambassador";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Segment-Ambassador/Segment-Ambassador-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Segment-Ambassador/Segment-Ambassador-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -535,13 +558,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 457D6F6B0E7B271F2883D786 /* Pods-Segment-Ambassador_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/Ambassador";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Segment-Ambassador/Segment-Ambassador-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Segment-Ambassador/Segment-Ambassador-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

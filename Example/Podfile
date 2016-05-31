@@ -1,10 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+#use_frameworks!
 
 platform :ios, '8.0'
 
 target 'Segment-Ambassador_Example' do
   pod "Segment-Ambassador", :path => "../"
+  
+  pod 'Ambassador'
 end
 
 target 'Segment-Ambassador_Tests' do
@@ -14,3 +16,5 @@ target 'Segment-Ambassador_Tests' do
   pod 'Specta'
   pod 'Expecta'
 end
+
+
