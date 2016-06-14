@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11E6C4C6F57DD4DCD1F5A7F6 /* libPods-Segment-Ambassador_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F94E94C210013A07E361D6 /* libPods-Segment-Ambassador_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +20,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		764148B8DB3549DFAF3C075D /* libPods-Segment-Ambassador_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DAC97BBCCA030C95B229F2 /* libPods-Segment-Ambassador_Tests.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B8EBB707D299911C3E123D82 /* libPods-Segment-Ambassador_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D6825F804D5499107C1FEB /* libPods-Segment-Ambassador_Example.a */; };
 		EF22EAD31CFE3C6500DC3A89 /* libPods-Segment-Ambassador_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF22EAD21CFE3C6500DC3A89 /* libPods-Segment-Ambassador_Example.a */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +39,8 @@
 		0081F39724478FCF5F5860CF /* Pods-Segment-Ambassador_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment-Ambassador_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Segment-Ambassador_Example/Pods-Segment-Ambassador_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		16EAD4037F50609E8758BF28 /* Segment-Ambassador.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "Segment-Ambassador.podspec"; path = "../Segment-Ambassador.podspec"; sourceTree = "<group>"; };
 		3542F6D76FE5238040D44B95 /* Pods-Segment-Ambassador_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment-Ambassador_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Segment-Ambassador_Tests/Pods-Segment-Ambassador_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		40DAC97BBCCA030C95B229F2 /* libPods-Segment-Ambassador_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Segment-Ambassador_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		457D6F6B0E7B271F2883D786 /* Pods-Segment-Ambassador_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment-Ambassador_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Segment-Ambassador_Example/Pods-Segment-Ambassador_Example.release.xcconfig"; sourceTree = "<group>"; };
-		48F94E94C210013A07E361D6 /* libPods-Segment-Ambassador_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Segment-Ambassador_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* Segment-Ambassador_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Segment-Ambassador_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,15 +61,16 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8E73293A7B37B9912D50F5A0 /* libPods-Segment-Ambassador_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Segment-Ambassador_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFB1DB5036168A19C10FC85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C8098EEDD659EF3485A255FC /* Pods-Segment-Ambassador_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment-Ambassador_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Segment-Ambassador_Tests/Pods-Segment-Ambassador_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D6D6825F804D5499107C1FEB /* libPods-Segment-Ambassador_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Segment-Ambassador_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF22EAC71CFE39DF00DC3A89 /* libAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAnalytics.a; path = "Pods/../build/Debug-iphoneos/Analytics/libAnalytics.a"; sourceTree = "<group>"; };
 		EF22EAC91CFE39EB00DC3A89 /* libSegment-Ambassador.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libSegment-Ambassador.a"; path = "Pods/../build/Debug-iphoneos/Segment-Ambassador/libSegment-Ambassador.a"; sourceTree = "<group>"; };
 		EF22EACB1CFE39FF00DC3A89 /* libPods-Segment-Ambassador_Example.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Segment-Ambassador_Example.a"; path = "../../../../Library/Developer/Xcode/DerivedData/Segment-Ambassador-fmmfnaklgmdcqdeiqqzehvyvakoe/Build/Products/Debug-iphonesimulator/libPods-Segment-Ambassador_Example.a"; sourceTree = "<group>"; };
 		EF22EACD1CFE3AFA00DC3A89 /* libPods-Segment-Ambassador_Example.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Segment-Ambassador_Example.a"; path = "Pods/../build/Debug-iphoneos/libPods-Segment-Ambassador_Example.a"; sourceTree = "<group>"; };
 		EF22EAD01CFE3BA500DC3A89 /* libSegment-Ambassador.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libSegment-Ambassador.a"; path = "Pods/../build/Debug-iphoneos/Segment-Ambassador/libSegment-Ambassador.a"; sourceTree = "<group>"; };
 		EF22EAD21CFE3C6500DC3A89 /* libPods-Segment-Ambassador_Example.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Segment-Ambassador_Example.a"; path = "Pods/../build/Debug-iphoneos/libPods-Segment-Ambassador_Example.a"; sourceTree = "<group>"; };
+		EF456AE81D0B6E4B006C75E7 /* libSegment-Ambassador.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libSegment-Ambassador.a"; path = "../../../../Library/Developer/Xcode/DerivedData/Segment-Ambassador-fmmfnaklgmdcqdeiqqzehvyvakoe/Build/Products/Debug-iphonesimulator/Segment-Ambassador/libSegment-Ambassador.a"; sourceTree = "<group>"; };
 		EF5A46141CF73726006B7AFA /* Ambassador.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ambassador.framework; path = Pods/Ambassador/Ambassador.framework; sourceTree = "<group>"; };
 		EF5A461C1CF737A0006B7AFA /* Analytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Analytics.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Segment-Ambassador-fmmfnaklgmdcqdeiqqzehvyvakoe/Build/Products/Debug-iphonesimulator/Analytics/Analytics.framework"; sourceTree = "<group>"; };
 		EF5A461F1CF73CCE006B7AFA /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
@@ -87,7 +87,6 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				B8EBB707D299911C3E123D82 /* libPods-Segment-Ambassador_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +97,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				11E6C4C6F57DD4DCD1F5A7F6 /* libPods-Segment-Ambassador_Tests.a in Frameworks */,
+				764148B8DB3549DFAF3C075D /* libPods-Segment-Ambassador_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +128,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF456AE81D0B6E4B006C75E7 /* libSegment-Ambassador.a */,
 				EF22EAD21CFE3C6500DC3A89 /* libPods-Segment-Ambassador_Example.a */,
 				EF22EAD01CFE3BA500DC3A89 /* libSegment-Ambassador.a */,
 				EF22EACD1CFE3AFA00DC3A89 /* libPods-Segment-Ambassador_Example.a */,
@@ -143,8 +143,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				D6D6825F804D5499107C1FEB /* libPods-Segment-Ambassador_Example.a */,
-				48F94E94C210013A07E361D6 /* libPods-Segment-Ambassador_Tests.a */,
+				8E73293A7B37B9912D50F5A0 /* libPods-Segment-Ambassador_Example.a */,
+				40DAC97BBCCA030C95B229F2 /* libPods-Segment-Ambassador_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -222,12 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "Segment-Ambassador_Example" */;
 			buildPhases = (
-				313C1351585AEBD7CF1BB830 /* 📦 Check Pods Manifest.lock */,
+				313C1351585AEBD7CF1BB830 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				755EAB35D6F1E4C32F7C2110 /* 📦 Embed Pods Frameworks */,
-				606318A3CDCCAF00E6BCD469 /* 📦 Copy Pods Resources */,
+				755EAB35D6F1E4C32F7C2110 /* [CP] Embed Pods Frameworks */,
+				606318A3CDCCAF00E6BCD469 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,12 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Segment-Ambassador_Tests" */;
 			buildPhases = (
-				8936C5226DDA67A34F2CE84F /* 📦 Check Pods Manifest.lock */,
+				8936C5226DDA67A34F2CE84F /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				8326786B645F84F908D448F6 /* 📦 Embed Pods Frameworks */,
-				5735C8B1BACEC9AB8FCC8576 /* 📦 Copy Pods Resources */,
+				8326786B645F84F908D448F6 /* [CP] Embed Pods Frameworks */,
+				5735C8B1BACEC9AB8FCC8576 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -315,14 +315,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		313C1351585AEBD7CF1BB830 /* 📦 Check Pods Manifest.lock */ = {
+		313C1351585AEBD7CF1BB830 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,14 +330,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		5735C8B1BACEC9AB8FCC8576 /* 📦 Copy Pods Resources */ = {
+		5735C8B1BACEC9AB8FCC8576 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,14 +345,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Segment-Ambassador_Tests/Pods-Segment-Ambassador_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		606318A3CDCCAF00E6BCD469 /* 📦 Copy Pods Resources */ = {
+		606318A3CDCCAF00E6BCD469 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,14 +360,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Segment-Ambassador_Example/Pods-Segment-Ambassador_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		755EAB35D6F1E4C32F7C2110 /* 📦 Embed Pods Frameworks */ = {
+		755EAB35D6F1E4C32F7C2110 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,14 +375,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Segment-Ambassador_Example/Pods-Segment-Ambassador_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8326786B645F84F908D448F6 /* 📦 Embed Pods Frameworks */ = {
+		8326786B645F84F908D448F6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,14 +390,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Segment-Ambassador_Tests/Pods-Segment-Ambassador_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8936C5226DDA67A34F2CE84F /* 📦 Check Pods Manifest.lock */ = {
+		8936C5226DDA67A34F2CE84F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,7 +540,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Segment-Ambassador/Segment-Ambassador-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
@@ -561,7 +561,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Segment-Ambassador/Segment-Ambassador-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
