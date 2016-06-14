@@ -23,6 +23,7 @@
 		764148B8DB3549DFAF3C075D /* libPods-Segment-Ambassador_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DAC97BBCCA030C95B229F2 /* libPods-Segment-Ambassador_Tests.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		EF22EAD31CFE3C6500DC3A89 /* libPods-Segment-Ambassador_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF22EAD21CFE3C6500DC3A89 /* libPods-Segment-Ambassador_Example.a */; };
+		EF9604841D10B34300C8EEF1 /* Ambassador.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5A46141CF73726006B7AFA /* Ambassador.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9604841D10B34300C8EEF1 /* Ambassador.framework in Frameworks */,
 				EF22EAD31CFE3C6500DC3A89 /* libPods-Segment-Ambassador_Example.a in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
@@ -540,7 +542,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/Ambassador";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Segment-Ambassador/Segment-Ambassador-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
@@ -561,7 +563,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/Ambassador";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Segment-Ambassador/Segment-Ambassador-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
