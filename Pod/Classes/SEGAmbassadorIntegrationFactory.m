@@ -15,7 +15,7 @@
 + (instancetype)instance
 {
     static dispatch_once_t once;
-    static SEGAmbassadorIntegrationFactory *sharedInstance;
+    static SEGAmabssadorIntegration *sharedInstance;
     dispatch_once(&once, ^{
         sharedInstance = [[self alloc] init];
     });
@@ -28,14 +28,12 @@
     return self;
 }
 
-
--(id<SEGIntegration>) createWithSettings:(NSDictionary *)settings forAnalytics:(SEGAnalytics *)analytics
+- (id<SEGIntegration>)createWithSettings:(NSDictionary *)settings forAnalytics:(SEGAnalytics *)analytics
 {
-    NSLog(@"CreateWithSettings");
     return [[SEGAmabssadorIntegration alloc] initWithSettings:settings];
 }
 
--(NSString *)key
+- (NSString *)key
 {
     return @"Ambassador";
 }

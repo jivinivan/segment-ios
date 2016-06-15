@@ -8,7 +8,6 @@
 
 #import "SEGAmabssadorIntegration.h"
 #import <Analytics/SEGAnalyticsUtils.h>
-#import "Ambassador.h"
 
 @implementation SEGAmabssadorIntegration
 

@@ -8,10 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <Analytics/SEGIntegrationFactory.h>
-#import "SEGAnalytics.h"
-#import "SEGIntegration.h"
 
-@interface SEGAmbassadorIntegrationFactory : NSObject <SEGIntegrationFactory, SEGIntegration>
+@interface SEGAmbassadorIntegrationFactory : NSObject <SEGIntegrationFactory>
 
 + (instancetype)instance;
 
