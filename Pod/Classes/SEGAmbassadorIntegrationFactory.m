@@ -9,6 +9,7 @@
 #import "SEGAmbassadorIntegrationFactory.h"
 #import "SEGAmabssadorIntegration.h"
 
+
 @implementation SEGAmbassadorIntegrationFactory
 
 + (instancetype)instance
