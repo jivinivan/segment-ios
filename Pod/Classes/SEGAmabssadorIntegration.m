@@ -13,17 +13,20 @@
 
 - (instancetype)initWithSettings:(NSDictionary *)settings {
     if (self = [super init]) {
-        NSLog(@"Initwithsettings");
+        // Get keys from Segment needed to run Ambassador
+        NSString *sdkToken = settings[@"sdkToken"];
+        NSString *universalId = settings[@"universalId"];
+        
+        // Initialize Ambassador
+        [AmbassadorSDK runWithUniversalToken:sdkToken universalID:universalId];
     }
     
     return self;
 }
 
 -(void)identify:(SEGIdentifyPayload *)payload {
-    NSDictionary *options = payload.integrations[@"Ambassador"];
-    [AmbassadorSDK identifyWithUserID:@"0" traits:payload.traits options:options];
-    NSLog(@"Test identify");
-    SEGLog(@"test");
+    SEGLog(@"[Ambassador] Identifing with userID- %@ and traits- %@", payload.userId, payload.traits);
+    [AmbassadorSDK identifyWithUserID:payload.userId traits:payload.traits];
 }
 
 @end

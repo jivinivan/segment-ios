@@ -21,6 +21,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		764148B8DB3549DFAF3C075D /* libPods-Segment-Ambassador_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DAC97BBCCA030C95B229F2 /* libPods-Segment-Ambassador_Tests.a */; };
+		8054ECAE1CCC6B751C55C80D /* libPods-Segment-Ambassador_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E73293A7B37B9912D50F5A0 /* libPods-Segment-Ambassador_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		EF22EAD31CFE3C6500DC3A89 /* libPods-Segment-Ambassador_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF22EAD21CFE3C6500DC3A89 /* libPods-Segment-Ambassador_Example.a */; };
 		EF9604841D10B34300C8EEF1 /* Ambassador.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5A46141CF73726006B7AFA /* Ambassador.framework */; };
@@ -89,6 +90,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				8054ECAE1CCC6B751C55C80D /* libPods-Segment-Ambassador_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

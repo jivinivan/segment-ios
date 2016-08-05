@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/*'
 
   s.dependency 'Analytics', '~> 3.0.0'
-  s.dependency 'Ambassador', '~> 1.0.51'
+  s.dependency 'Ambassador', '~> 1.0.7'
 end
