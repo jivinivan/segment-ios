@@ -1,10 +1,17 @@
 //  OCMockito by Jon Reid, http://qualitycoding.org/about/
-//  Copyright 2015 Jonathan M. Reid. See LICENSE.txt
+//  Copyright 2016 Jonathan M. Reid. See LICENSE.txt
 
 #import <Foundation/Foundation.h>
 
 #import "MKTOngoingStubbing.h"
 #import "NSInvocation+OCMockito.h"
+
+// Explicitly import transitive headers for complete "umbrella header"
+#import "MKTBaseMockObject.h"
+#import "MKTClassObjectMock.h"
+#import "MKTObjectAndProtocolMock.h"
+#import "MKTObjectMock.h"
+#import "MKTProtocolMock.h"
 
 @protocol MKTVerificationMode;
 
@@ -166,11 +173,11 @@ FOUNDATION_EXPORT MKTOngoingStubbing *MKTGivenVoidWithLocation(id testCase, cons
 #endif
 
 
-#define MKTStubProperty(instance, property, value)                          \
-    do {                                                                    \
-        [MKTGiven([instance property]) willReturn:value];                   \
-        [MKTGiven([instance valueForKey:@#property]) willReturn:value];     \
-        [MKTGiven([instance valueForKeyPath:@#property]) willReturn:value]; \
+#define MKTStubProperty(mock, property, stubbedValue)                          \
+    do {                                                                       \
+        [MKTGiven([mock property]) willReturn:stubbedValue];                   \
+        [MKTGiven([mock valueForKey:@#property]) willReturn:stubbedValue];     \
+        [MKTGiven([mock valueForKeyPath:@#property]) willReturn:stubbedValue]; \
     } while(0)
 
 #ifndef MKT_DISABLE_SHORT_SYNTAX
@@ -181,7 +188,7 @@ FOUNDATION_EXPORT MKTOngoingStubbing *MKTGivenVoidWithLocation(id testCase, cons
  * In the event of a name clash, <code>#define MKT_DISABLE_SHORT_SYNTAX</code> and use the synonym
  * MKTStubProperty instead.
  */
-#define stubProperty(instance, property, value) MKTStubProperty(instance, property, value)
+#define stubProperty(mock, property, stubbedValue) MKTStubProperty(mock, property, stubbedValue)
 #endif
 
 

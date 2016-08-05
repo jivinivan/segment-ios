@@ -1,5 +1,5 @@
 //  OCMockito by Jon Reid, http://qualitycoding.org/about/
-//  Copyright 2015 Jonathan M. Reid. See LICENSE.txt
+//  Copyright 2016 Jonathan M. Reid. See LICENSE.txt
 
 #import "MKTBaseMockObject.h"
 
@@ -44,8 +44,12 @@
         return;
     if ([self handlingVerifyOfInvocation:invocation])
         return;
-    [self prepareInvocationForStubbing:invocation];
-    [self answerInvocation:invocation];
+
+    @synchronized (self)
+    {
+        [self prepareInvocationForStubbing:invocation];
+        [self answerInvocation:invocation];
+    }
 }
 
 - (BOOL)handlingVerifyOfInvocation:(NSInvocation *)invocation

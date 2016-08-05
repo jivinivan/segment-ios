@@ -1,0 +1,6 @@
+framework module Segment_Ambassador {
+  umbrella header "Segment-Ambassador-umbrella.h"
+
+  export *
+  module * { export * }
+}

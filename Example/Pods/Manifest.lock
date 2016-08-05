@@ -1,13 +1,13 @@
 PODS:
-  - Ambassador (1.0.51)
+  - Ambassador (1.0.70)
   - Analytics (3.0.7)
   - Expecta (1.0.5)
   - OCHamcrest (5.4.0)
-  - OCMockito (3.0.1):
+  - OCMockito (3.0.2):
     - OCHamcrest (~> 5.1)
   - Segment-Ambassador (0.1.0):
-    - Ambassador (~> 1.0.51)
-    - Analytics (~> 3.0.0)
+    - Ambassador (~> 1.0.70)
+    - Analytics (~> 3.0.7)
   - Specta (1.0.5)
 
 DEPENDENCIES:
@@ -22,14 +22,14 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Ambassador: e260f95aeab24fce4796e436958abf996640481c
+  Ambassador: c3913d6673ceedc185f85326689e2e454f17757f
   Analytics: b342fb4f43fa4f97ca6f4358b44d3295217ba294
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   OCHamcrest: 5c1d441c5a82fb18ac17c2aeb52ec1a99edb971b
-  OCMockito: 9eee3c61e42f7cb8aa015d66f8cc16849701d973
-  Segment-Ambassador: 4cfe2d1546a113efcfa1563a9d18c682ffe6ee37
+  OCMockito: 2cb6c2267cbc76537be56281cd47cdb5a7c27541
+  Segment-Ambassador: 93afa4971cef97f64a4350795ae33e178eea6079
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
-PODFILE CHECKSUM: e2396397f0658bfd6e73487c96b6f3a2fc996279
+PODFILE CHECKSUM: 67e03a48eb9c037b7e48adf4f2e9da4328956110
 
 COCOAPODS: 1.0.1

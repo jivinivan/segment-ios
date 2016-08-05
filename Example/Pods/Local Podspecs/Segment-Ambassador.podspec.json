@@ -22,10 +22,10 @@
   "source_files": "Pod/Classes/*",
   "dependencies": {
     "Analytics": [
-      "~> 3.0.0"
+      "~> 3.0.7"
     ],
     "Ambassador": [
-      "~> 1.0.51"
+      "~> 1.0.70"
     ]
   }
 }

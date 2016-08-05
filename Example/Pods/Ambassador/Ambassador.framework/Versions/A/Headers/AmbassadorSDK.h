@@ -53,12 +53,27 @@ typedef enum conversionStatus {
  
  @param userID A unique ID tied to the user being identified
  @param traits Extra values tied to the user. Ex: Email, first name, last name, etc.
- @param options Used to pass extra options for the identify call. Ex: Passing the key/pair value '@"campaign" : @"1"' will auto-enroll the user in the campaign.
  
  @warning It is highly recommended to at least include an 'email' value in the traits dictionary in order for full functionality in the Ambassador SDK.
  
  */
-+ (void)identifyWithUserID:(NSString *)userID traits:(NSDictionary *)traits options:(NSDictionary *)options;
++ (void)identifyWithUserID:(NSString *)userID traits:(NSDictionary *)traits;
+
+
+/**
+ 
+ Identifies a user based a unique userID and a dictionary of traits.
+ 
+ Recommended to put on a login screen or after the initial call to run Ambassador if you have the user's info stored.
+ 
+ @param userID A unique ID tied to the user being identified
+ @param traits Extra values tied to the user. Ex: Email, first name, last name, etc.
+ @param campaign Auto-enrolls the user being identified into the campaign
+ 
+ @warning It is highly recommended to at least include an 'email' value in the traits dictionary in order for full functionality in the Ambassador SDK.
+ 
+ */
++ (void)identifyWithUserID:(NSString *)userID traits:(NSDictionary *)traits autoEnrollCampaign:(NSString *)campaign;
 
 
 /**
@@ -93,12 +108,11 @@ typedef enum conversionStatus {
  
  @param eventName An optional value for the name of the event being tracked. 
  @param properties Properties set for the event. Ex: Campaign, email, revenue, etc.
- @param options Additional options that can be set for the event. 
  
  @warning In order to register the event as a conversion, the key/pair value '@"conversion" : @YES' must be added to the 'options' dictionary.
  
  */
-+ (void)trackEvent:(NSString *)eventName properties:(NSDictionary *)properties options:(NSDictionary *)options;
++ (void)trackEvent:(NSString *)eventName properties:(NSDictionary *)properties;
 
 
 /**
@@ -109,13 +123,29 @@ typedef enum conversionStatus {
  
  @param eventName An optional value for the name of the event being tracked.
  @param properties Properties set for the event. Ex: Campaign, email, revenue, etc.
- @param options Additional options that can be set for the event.
  @param completion If event is a conversion, this block that tells the user when the conversion is done attempting to send.  Block passes back the conversion, the conversionStatus, and an error if one occurs.
  
  @warning In order to register the event as a conversion, the key/pair value '@"conversion" : @YES' must be added to the 'options' dictionary.
  
  */
-+ (void)trackEvent:(NSString *)eventName properties:(NSDictionary *)properties options:(NSDictionary *)options completion:(void (^)(AMBConversionParameters *conversion, ConversionStatus conversionStatus, NSError *error))completion;
++ (void)trackEvent:(NSString *)eventName properties:(NSDictionary *)properties completion:(void (^)(AMBConversionParameters *conversion, ConversionStatus conversionStatus, NSError *error))completion;
+
+
+/**
+ 
+ Tracks an event with Ambassador.
+ 
+ Currently, the only event Ambassador tracks is a conversion.
+ 
+ @param eventName An optional value for the name of the event being tracked.
+ @param properties Properties set for the event. Ex: Campaign, email, revenue, etc.
+ @param restrictedToInstall If set to YES, the event will only be able to occur one time. Even if the event is hit again, no conversion will be sent.
+ @param completion If event is a conversion, this block that tells the user when the conversion is done attempting to send.  Block passes back the conversion, the conversionStatus, and an error if one occurs.
+ 
+ @warning In order to register the event as a conversion, the key/pair value '@"conversion" : @YES' must be added to the 'options' dictionary.
+ 
+ */
++ (void)trackEvent:(NSString *)eventName properties:(NSDictionary *)properties restrictToInstall:(BOOL)restricted completion:(void (^)(AMBConversionParameters *conversion, ConversionStatus conversionStatus, NSError *error))completion;
 
 
 /**
